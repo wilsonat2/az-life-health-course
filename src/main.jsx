@@ -2,6 +2,34 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.css'
 import { module1 } from './content/module1'
+import { module2 } from './content/module2'
+
+function ModuleCard({ module, episode }) {
+  return (
+    <section className="card">
+      <h2>{module.title}</h2>
+      <p>{module.objective}</p>
+
+      <h3>Key Concepts</h3>
+      <ul>{module.keyConcepts.map((c, i) => <li key={`k${episode}-${i}`}>{c}</li>)}</ul>
+
+      <h3>Lesson</h3>
+      {module.lesson.map((p, i) => <p key={`l${episode}-${i}`}>{p}</p>)}
+
+      <h3>Memory Hooks</h3>
+      <ul>{module.memoryHooks.map((m, i) => <li key={`m${episode}-${i}`}>{m}</li>)}</ul>
+
+      <h3>Animated Video Script (Episode {episode})</h3>
+      <ol>{module.videoScript.map((s, i) => <li key={`v${episode}-${i}`}>{s}</li>)}</ol>
+
+      <h3>Checkpoint Quiz (10 Questions)</h3>
+      <ol>{module.quiz.map((q, i) => <li key={`q${episode}-${i}`}>{q}</li>)}</ol>
+
+      <h3>Answer Key (Separate)</h3>
+      <p>{module.answerKey}</p>
+    </section>
+  )
+}
 
 function App() {
   return (
@@ -12,29 +40,8 @@ function App() {
       </header>
 
       <main className="container">
-        <section className="card">
-          <h2>{module1.title}</h2>
-          <p>{module1.objective}</p>
-          <h3>Key Concepts</h3>
-          <ul>{module1.keyConcepts.map((c, i) => <li key={i}>{c}</li>)}</ul>
-
-          <h3>Lesson</h3>
-          {module1.lesson.map((p, i) => <p key={i}>{p}</p>)}
-
-          <h3>Memory Hooks</h3>
-          <ul>{module1.memoryHooks.map((m, i) => <li key={i}>{m}</li>)}</ul>
-
-          <h3>Animated Video Script (Episode 1)</h3>
-          <ol>{module1.videoScript.map((s, i) => <li key={i}>{s}</li>)}</ol>
-
-          <h3>Checkpoint Quiz (10 Questions)</h3>
-          <ol>{module1.quiz.map((q, i) => <li key={i}>{q}</li>)}</ol>
-        </section>
-
-        <section className="card">
-          <h3>Answer Key (Separate)</h3>
-          <p>{module1.answerKey}</p>
-        </section>
+        <ModuleCard module={module1} episode={1} />
+        <ModuleCard module={module2} episode={2} />
       </main>
     </div>
   )
