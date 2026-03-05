@@ -1,44 +1,48 @@
 export const module2 = {
-  title: 'Module 2 — Life Insurance Basics (12%)',
+  title: 'Module 2 — Life Insurance Fundamentals (Concept-First)',
   objective:
-    'Understand insurable interest, policy roles, underwriting flow, and core life concepts tested heavily on the Arizona exam.',
+    'Learn how life insurance works in real practice: who is involved, what makes coverage valid, and how policies are formed and managed over time.',
   keyConcepts: [
-    'Roles: insurer, producer, owner, insured, beneficiary, payor',
-    'Insurable interest timing rules in life insurance',
-    'Application completion and delivery requirements',
-    'Premium modes and policy effective date basics',
-    'Medical information sources and underwriting decisions'
+    'Policy roles: owner, insured, beneficiary, payor, insurer, producer',
+    'Insurable interest and why it matters at policy issue',
+    'Application accuracy, underwriting, and risk classification',
+    'Premium modes, effective date logic, and policy delivery basics',
+    'Ethical recommendation process grounded in client goals'
   ],
   lesson: [
-    'Life insurance is built around economic loss from death. The exam often tests role confusion: the owner controls policy rights, the insured is the person whose life is covered, and beneficiary receives proceeds at claim time.',
-    'Insurable interest in life insurance generally must exist at policy issue. Family and business relationships often satisfy this requirement because a measurable loss would occur upon death.',
-    'Applications must be accurate and complete. Misstatements can affect claim outcomes or policy validity. Producers should never prefill misleading responses or skip disclosures for speed.',
-    'Underwriting uses medical and non-medical factors to classify risk. Sources can include application statements, attending physician statements (when needed), and database checks. Classification impacts premium and approval terms.',
-    'Policy delivery and premium payment can determine when coverage is fully in force. Read question wording carefully around conditional receipts, effective dates, and required conditions.'
+    'Life insurance is a financial protection tool built to replace economic value after a death. In practice, this means replacing income, preserving a household plan, protecting a business, or covering final obligations. Understanding purpose first helps prevent “product-first” selling mistakes.',
+    'Most confusion in early learning comes from role mix-ups. The policyowner controls contractual rights (for example, changing beneficiaries where allowed, assigning ownership, or borrowing against cash value in permanent products). The insured is the person whose life is covered. The beneficiary receives proceeds at claim time.',
+    'Insurable interest exists to prevent wagering on human life. In plain language, there must be a legitimate relationship where loss would occur if the insured dies. Family and business relationships are common examples. This principle is foundational to legal and ethical life insurance practice.',
+    'The application is not just paperwork—it is core underwriting input. Accuracy is critical. Material misstatements can change pricing, delay issuance, or impact claims. A strong producer verifies responses, documents disclosures, and avoids rushed “fill-it-later” behavior.',
+    'Underwriting is risk evaluation. Carriers review medical and non-medical data, then place applicants into risk classes. Risk class affects premium and may affect offer terms. The practical takeaway: clients with similar age can still receive different pricing based on risk profile.',
+    'Policy issue and delivery establish when and how coverage becomes active. Timeline language matters: date of application, date of issue, date of first premium, and any conditional requirements. Good advisors explain this clearly so clients do not assume coverage before conditions are met.',
+    'Premium mode selection (monthly, quarterly, semiannual, annual) changes cash-flow behavior and total annual cost in some plans. This is a real planning discussion, not a clerical detail. Aligning payment structure to client budgeting improves policy persistency.',
+    'Professional recommendation flow: clarify goal, match policy design to time horizon and budget, disclose strengths and tradeoffs, and document rationale. This concept-first process builds long-term trust and improves outcomes beyond just passing an exam.'
   ],
   memoryHooks: [
-    'OIB: Owner controls, Insured is covered life, Beneficiary gets proceeds.',
-    'Issue-time rule: insurable interest is tested at policy issue for life.',
-    'Exam warning: timeline words (before, upon, after, during) change the answer.'
+    'O-I-B: Owner controls, Insured is covered life, Beneficiary receives proceeds.',
+    'Coverage logic: Need → Fit → Disclose → Document.',
+    'Timeline words matter: issue, deliver, pay, activate.'
   ],
   videoScript: [
-    'Scene 1: Character map with labels for owner/insured/beneficiary to prevent role confusion.',
-    'Scene 2: Business partnership animation explains insurable interest through buy-sell context.',
-    'Scene 3: Application timeline from interview to underwriting to offer/delivery.',
-    'Scene 4: Risk classes visual (preferred/standard/substandard) with premium impact.',
-    'Scene 5: Recap quiz montage: “Who controls the policy? When must insurable interest exist?”'
+    'Scene 1: Family and business use-cases for life insurance (income replacement, debt, continuity).',
+    'Scene 2: Character map animation for owner/insured/beneficiary with role callouts.',
+    'Scene 3: Insurable interest visualized as legitimate financial relationship, not speculation.',
+    'Scene 4: Application-to-underwriting workflow with decision nodes and risk classes.',
+    'Scene 5: Policy delivery timeline showing when coverage is actually in force.',
+    'Scene 6: Advisor-client recommendation framework recap with checklist.'
   ],
   quiz: [
-    '1) In a life policy, who normally has the right to change beneficiaries? A) Insured only B) Owner C) Producer D) Annuitant',
-    '2) Insurable interest in life insurance must generally exist: A) At claim only B) At issue C) At renewal only D) Never',
-    '3) Which party is the covered life? A) Beneficiary B) Owner C) Insured D) Payor',
-    '4) Underwriting classification primarily affects: A) State licensing fees B) Premium level and issue terms C) Beneficiary rights D) Producer appointment dates',
-    '5) A complete and truthful application is important because it is part of: A) Marketing copy B) Entire contract framework C) Claims check only D) Renewal notice only',
-    '6) Which source may support underwriting decisions? A) Random social comments B) MIB/medical records where appropriate C) Competitor ad copy D) Beneficiary preference',
-    '7) Who receives death proceeds by default policy design? A) Producer B) Insurer C) Beneficiary D) Owner’s employer',
-    '8) If a question asks who can assign policy rights, best first answer is usually: A) Owner B) Beneficiary C) Producer D) Exam vendor',
-    '9) A producer should do which action? A) Guess missing data B) Leave required disclosures incomplete C) Document and verify application responses D) Backdate signatures',
-    '10) Premium mode refers to: A) Coverage type B) Payment frequency choices C) Underwriting class D) Claim payout option'
+    '1) The person who generally controls policy rights is the: A) Beneficiary B) Producer C) Owner D) Insured',
+    '2) The covered life under a policy is the: A) Insured B) Owner C) Payor D) Carrier',
+    '3) Life insurance primarily protects against: A) Routine spending B) Economic loss from death C) Inflation only D) Property damage',
+    '4) Insurable interest is most important at: A) Policy issue B) Claim only C) Renewal only D) Never',
+    '5) Underwriting mainly determines: A) Agent commission B) Risk class and pricing terms C) Beneficiary age D) Tax filing status',
+    '6) A strong producer practice is to: A) Skip details to save time B) Verify application responses and document disclosures C) Preselect beneficiary without discussion D) Delay premium handling',
+    '7) Coverage activation often depends on: A) Marketing brochure B) Timeline and required conditions C) Competitor price list D) Social media reviews',
+    '8) Premium mode is best understood as: A) Claim speed B) Payment frequency structure C) Policy ownership type D) Underwriting exam type',
+    '9) Concept-first recommendation starts with: A) Highest commission B) Client goals and constraints C) Fastest issue policy D) Most complex rider set',
+    '10) Better persistency is usually supported by: A) Misleading guarantees B) Payment plan matched to client cash flow C) Hidden exclusions D) No annual reviews'
   ],
-  answerKey: '1-B, 2-B, 3-C, 4-B, 5-B, 6-B, 7-C, 8-A, 9-C, 10-B'
+  answerKey: '1-C, 2-A, 3-B, 4-A, 5-B, 6-B, 7-B, 8-B, 9-B, 10-B'
 }

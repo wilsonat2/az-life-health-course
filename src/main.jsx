@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './styles.css'
 import { module1 } from './content/module1'
 import { module2 } from './content/module2'
+import { module3 } from './content/module3'
+import { module4 } from './content/module4'
+import { module5 } from './content/module5'
 
 function ModuleCard({ module, episode }) {
   return (
@@ -32,16 +35,17 @@ function ModuleCard({ module, episode }) {
 }
 
 function App() {
+  const modules = [module1, module2, module3, module4, module5]
+
   return (
     <div className="app">
       <header className="hero">
         <h1>Arizona Life & Health Pre-Licensing</h1>
-        <p>Professional tone, easy-to-understand delivery • Module-by-module build</p>
+        <p>Professional tone, easy-to-understand delivery • Concept-first curriculum</p>
       </header>
 
       <main className="container">
-        <ModuleCard module={module1} episode={1} />
-        <ModuleCard module={module2} episode={2} />
+        {modules.map((m, idx) => <ModuleCard key={idx} module={m} episode={idx + 1} />)}
       </main>
     </div>
   )
