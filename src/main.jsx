@@ -11,6 +11,11 @@ import { module7 } from './content/module7'
 import { module8 } from './content/module8'
 import { module9 } from './content/module9'
 import { module10 } from './content/module10'
+import { module11 } from './content/module11'
+import { module12 } from './content/module12'
+import { module13 } from './content/module13'
+import { module14 } from './content/module14'
+import { module15 } from './content/module15'
 
 function ModuleCard({ module, episode }) {
   return (
@@ -40,7 +45,7 @@ function ModuleCard({ module, episode }) {
 }
 
 function App() {
-  const modules = [module1, module2, module3, module4, module5, module6, module7, module8, module9, module10]
+  const modules = [module1, module2, module3, module4, module5, module6, module7, module8, module9, module10, module11, module12, module13, module14, module15]
 
   return (
     <div className="app">
