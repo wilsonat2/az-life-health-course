@@ -1,0 +1,9 @@
+:root { font-family: Inter, system-ui, Arial, sans-serif; color: #111827; background: #f3f4f6; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.hero { background: #0f172a; color: #fff; padding: 28px 20px; text-align: center; }
+.container { max-width: 920px; margin: 20px auto; padding: 0 14px 24px; display: grid; gap: 16px; }
+.card { background: #fff; border-radius: 14px; padding: 18px; box-shadow: 0 6px 22px rgba(2,6,23,.08); }
+h1,h2,h3 { margin: 0 0 10px; }
+p,li { line-height: 1.55; }
+ul,ol { margin-top: 8px; }
